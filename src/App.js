@@ -2,8 +2,11 @@ import './App.css';
 import Hero from "./components/Hero";
 import Articles from "./components/Articles";
 import Nav from "./components/Nav";
+import ContactMe from "./components/Contact";
 import Footer from "./components/Footer"
+import Accessibility from "./components/accessibility/AccessibilityPanel"
 import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
@@ -15,6 +18,8 @@ function App() {
         <Route path="/articles" element={<Articles />} />
         {/* Add other routes when ready */}
       </Routes>
+      <Accessibility />
+      <ContactMe />
       <Footer />
     </div>
   );
