@@ -11,6 +11,7 @@ function Contact() {
 
     return (
         <div className="contact-me">
+            <h2>Let keep in touch...</h2>
             <form onSubmit={handleSubmit}>
                 <fieldset>
                     <div className="Field">

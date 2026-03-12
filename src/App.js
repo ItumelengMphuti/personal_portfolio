@@ -6,6 +6,8 @@ import ContactMe from "./components/Contact";
 import Footer from "./components/Footer"
 import Accessibility from "./components/accessibility/AccessibilityPanel"
 import { Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
         {/* Add other routes when ready */}
       </Routes>
       <Accessibility />
+      <Projects />
       <ContactMe />
       <Footer />
     </div>
