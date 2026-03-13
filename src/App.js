@@ -7,6 +7,7 @@ import Footer from "./components/Footer"
 import Accessibility from "./components/accessibility/AccessibilityPanel"
 import { Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import Projects from './components/Projects';
 
 

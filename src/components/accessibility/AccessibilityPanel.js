@@ -4,7 +4,7 @@ import TextToSpeech from "./TextToSpeech";
 
 function AccessibilityPanel() {
   return (
-    <div className="accessibility-panel">
+    <div className="container my-4 p-3 border rounded">
       <h3>Accessibility</h3>
 
       <ThemeToggle />
